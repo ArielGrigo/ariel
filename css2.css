@@ -1,0 +1,71 @@
+/* styles.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #dbaf35;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+#panier {
+    list-style-type: none;
+    padding: 0;
+}
+
+#panier li {
+    margin-bottom: 10px;
+}
+
+#panier li img {
+    max-width: 50px;
+    max-height: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+  h1 {
+    text-align: center;
+    color: #4b1f9c;
+      animation : color-change 2s infinite;
+    
+  }
+  @keyframes color-change {
+      0% { color: Green; }
+      50% { color: red; }
+      100% { color: yellow; }
+      
+    }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  body{
+    background-image: url(imelda.jpg);
+    
+  }
+  form {
+    background-color: #af78d46c;
+    padding: 20px;
+      margin: 0% 50% 0% 20%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }  

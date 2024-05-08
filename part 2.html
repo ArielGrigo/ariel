@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">  
+  <title>Deuxième partie</title>
+  <link rel="stylesheet" type="text/css" href="css2.css">
+</head>
+<body>
+  <h1><i><u>Insertion de produits</u></i></h1>
+  <h2> Voici une brief présentation de nos produits principal: <br></h2> 
+  <table>
+        <tr>
+            <th>Image</th>
+            <th>Description</th>
+            <th>Prix</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>
+                <img src="image1.jpg" alt="buldog Français" title="Produit 1"></td>
+            <td><strong>JASON</strong><br> Cet chien a vécu la 1ère guerre mondiale<br>Très recommander pour garder des maisons</td>
+            <td>19,99 €</td>
+            <td><button onclick="ajouterAuPanier('image1.jpg','Produit 1', '19,99 €')">Ajouter au panier</button></td>
+        </tr>
+        <tr>
+            <td>
+                <img src="image2.jpg" alt="Chiwawa" title="Produit 2"></td>
+            <td><strong>IMELDA</strong><br> Cette espèce est très adorable et habille parfaitement la maison<br>C'est un très bon choix pour ceux qui veulent un toutou </td>
+            <td> 17,00 €</td>
+            <td><button onclick="ajouterAuPanier('image2.jpg','Produit 2', '17,00 €')">Ajouter au panier</button></td>
+        </tr>
+        <tr>
+            <td>
+                <img src="image3.jpg" alt="le batard" title="Produit 3"></td>
+            <td><strong>JOEL ARTHUR</strong><br> Très bavards et actifs ces chiens<br> Idéal si vous recherchez de la compagnie</td>
+            <td>10,99 €</td>
+            <td><button onclick="ajouterAuPanier('Produit 3','10,99 €')">Ajouter au panier</button></td>
+        </tr>
+        <tr>
+            <td>
+                <img src="image4.jpg" alt="buldog blanc" title="Produit 4"></td>
+            <td><strong>CLAIRE</strong><br> Que dire de ceci;<br>Ils sont juste magnifique et très protecteurs</td>
+            <td>27,50 €</td>
+            <td><button onclick="ajouterAuPanier('Produit 4','27,50 €')">Ajouter au panier</button></td>
+        </tr>
+        <tr>
+            <td>
+                <img src="image5.jpg" alt="buldog canadien" title="Produit 5"></td>
+            <td><strong>EMMA</strong><br> Mes préférés<br> Ils sont les meilleurs amis des enfants</td>
+            <td>22,99 €</td>
+            <td><button onclick="ajouterAuPanier('Produit 5','22,99 €')">Ajouter au panier</button></td>
+        </tr>
+        <tr>
+            <td>
+                <img src="image6.jpg" alt="boiboul" title="Produit 6"></td>
+            <td><strong>BENTO</strong><br> Les rois des chiens<br>Ils sont indigués pour des familles royales</td>
+            <td>25,00 €</td>
+            <td><button onclick="ajouterAuPanier('Produit 6','25,00 €')">Ajouter au panier</button></td>
+        </tr>
+    </table>
+<form>
+    <h2><strong><u>Panier</u></strong></h2>
+    <ul id="panier"></ul>
+    <a href="file:///C:/Users/GRINGO/Documents/My%20Web%20Sites/Web%20Perso/P%20web/part%203.html">
+
+        <input type="button" value="Valider">
+       </a>
+        <input type="button" value="Modifier" onclick="ModifierPanier()">
+        <input type="button" value="Annuler" onclick="viderPanier()">
+</form>
+
+    <script src="part 2.js"></script><br>
+
+ 
+</body>
+</html>
